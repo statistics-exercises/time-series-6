@@ -11,7 +11,7 @@ def samplemean(n,lam1,lam2) :
   
   
 # The 20 samples you take of the random variable should go in the list called samples  
-samples=20*[0]
+samples=np.zeros(20)
 # Your code to generate the 20 resamples of the mean goes here
 
 
